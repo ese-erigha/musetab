@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "museTab",
+  "version": "1.0",
+  "description": "A clean and minimal new tab page with time, greeting, quotes, and beautiful backgrounds",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage", "identity", "identity.email"],
+  "host_permissions": [
+    "https://bingw.jasonzeng.dev/"
+  ]
+} 
