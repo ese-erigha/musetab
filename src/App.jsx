@@ -32,8 +32,10 @@ function App() {
     setGreetingBasedOnTime();
 
     // Set random quote
-    const getRandomQuote = () => {
-      const randomIndex = Math.floor(Math.random() * quotes.length);
+      const getRandomQuote = () => {
+      const min = 1;
+      const max = quotes.length;
+      const randomIndex = Math.floor(Math.random() * (max - min + 1)) + min;
       setCurrentQuote(quotes[randomIndex]);
     };
 
