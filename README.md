@@ -1,5 +1,7 @@
 # museTab
 
+Link to extension on Chrome Strore - https://chromewebstore.google.com/detail/musetab/nmkdgpkilphgdaapacldmnlajehjggfa
+
 A clean and minimal new tab page with time, greeting, quotes, and beautiful backgrounds.
 
 ## Development
